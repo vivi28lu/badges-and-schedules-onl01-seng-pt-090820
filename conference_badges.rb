@@ -4,7 +4,7 @@ end
 
 creators = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
-def batch_badge_creator (creators)
+def batch_badge_creator(creators)
   creators.map do |creators|
    badge_maker (creators)
   end
@@ -21,6 +21,6 @@ def printer (creators)
     puts batch_badge_creator (creators)
   end
   assign_rooms(creators).each do |creators|
-    puts assign_rooms (creators)
+    puts assign_rooms(creators)
   end
 end
